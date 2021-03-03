@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  margin: 20px 0;
+  //   字体默认大小
+
+  article {
+    // A4标准尺寸(21cm*39.7cm),后期能够支持打印
+    width: 21cm;
+    min-height: 39.7cm;
+    background-color: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+    // 扩展怎张纸的内边距都为1.5em
+    padding: 1em;
+
+    h1{
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    // 给每个项目下面添加下划线
+    h2{
+        border-bottom: 2px solid slategray;
+        border-bottom: 6px;
+    }
+
+    ol{
+        list-style: none;
+    }
+    strong{
+        color: #f52443;
+        font-weight: 400;
+    }
+
+    a{
+        color: #1e3124;
+        text-decoration: none;
+        border-bottom: 1px solid;
+    }
+    p{
+        color: #666;
+        margin: 0.3em 0;
+    }
+
+
+
+    .self-intrdution{
+        position: relative;
+
+        img{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .projects {
+        p{
+        color: #666;
+
+        }
+        strong{
+            color: #f60;
+
+        }
+
+        ol{
+            margin: 0;
+            list-style-position: inside;
+            padding: 0;
+
+            li{
+                margin-bottom: 24px;
+
+                header{
+                    display: flex;
+                    justify-content: space-between;
+
+                }
+
+                h3{
+                    display: inline-block;
+
+                }
+            }
+        }
+    }
+
+    .skill{
+        
+    }
+  }
+}
+
+#skill{
+    width: 500px;
+    height: 270px;
+}
+
+@media print{
+    #skills{
+        display: none;
+    }
+}

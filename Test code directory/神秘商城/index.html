@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <title>E::before_CSS参考手册_web前端开发参考手册系列</title>
+    <style>
+      p {
+        position: relative;
+      
+      }
+      p:before {
+        position: absolute;
+        background: #fff;
+        color: #000;
+        content: "如果你的能看到这段文字，说明你的浏览器只支持E:before";
+        font-size: 14px;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <p>Sorry, 你的浏览器不支持E:before和E::before</p>
+  </body>
+</html>

@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  //   待会设置下字体
+  font: 18px/1.5 Microsoft YaHei 400 italic;
+  color: #fff;
+}
+
+body {
+  overflow-x: hidden;
+}
+.container-fluid {
+  width: 100vw;
+  background-image: url(./img/底部金币.png);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: top center;
+}
+header {
+  height: 690px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.logo {
+  width: 318px;
+  height: 52px;
+  margin: 22px;
+  display: inline-block;
+}
+.banner {
+  position: relative;
+}
+
+.banner img {
+  z-index: 11;
+  position: absolute;
+  top: -75px;
+  left: 65px;
+}
+
+// 2.main区域
+main {
+  height: 1870.5px;
+  overflow: hidden;
+  //   margin-bottom: -120px;
+}
+
+article {
+  background-color: #2e4562;
+  padding-bottom: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+main h3 {
+  text-align: center;
+  margin-top: 38px;
+  color: #c7dbdf;
+}
+
+main p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+// 图片居中方法
+.active {
+  width: 100%;
+  text-align: center;
+}
+
+.active img {
+  margin: 45px auto;
+}
+
+.nav {
+  display: flex;
+}
+
+.getclick {
+  width: 100%;
+  text-align: center;
+}
+
+.getclick a {
+  width: 381px;
+  height: 89px;
+  cursor: pointer;
+}
+
+// 雪碧图
+.getclick p {
+  font-size: 26px;
+  height: 75px;
+  line-height: 75px;
+  position: relative;
+  margin: 45px auto;
+  color: #0d5b75;
+}
+strong {
+  color: #0d5b75;
+}
+
+.getclick p::after {
+  position: absolute;
+  z-index: -11;
+  content: "";
+  left: 34%;
+  width: 381px;
+  height: 89px;
+  background: url("./img/css_sprites.png") -10px -10px;
+}
+
+.neirong2 .timeout {
+  margin-top: -50px;
+}
+
+.neirong2 .timeout p {
+  text-align: center;
+  color: #a4c3e4;
+  font-weight: 600;
+  font-size: 25px;
+}
+.neirong2 .timeout a {
+  width: 381px;
+  height: 89px;
+}
+.neirong2 .timeout .record {
+  text-align: center;
+  font-size: 18px;
+}
+.neirong2 .timeout .record2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.neirong2 .timeout a p {
+  font-size: 26px;
+  height: 75px;
+  font-weight: 400;
+  line-height: 75px;
+  position: relative;
+  margin: 25px 0;
+  color: #0d5b75;
+}
+.neirong2 .timeout a p::before {
+  position: absolute;
+  z-index: -11;
+  content: "";
+  left: 34%;
+  width: 381px;
+  height: 89px;
+  background: url("./img/css_sprites.png") -10px -10px;
+}
+.neirong2 .goods {
+  display: flex;
+  flex-wrap: wrap;
+}
+.neirong2 .goods-list {
+  margin: 20px 75px;
+  cursor: pointer;
+}
+
+
+.goods .old-price {
+  text-decoration: line-through;
+}
+
+.goods .new-price {
+  color: #ffdf7d;
+  font-size: 18px;
+}
+
+.nowbuy-first {
+  position: relative;
+  height: 50px;
+  line-height: 45px;
+  text-decoration: none;
+
+
+}
+
+.nowbuy-first a {
+    color: #000000;
+    text-decoration: none;
+}
+.nowbuy-first a:before {
+  position: absolute;
+  content: "";
+  left: 15px;
+  width: 160px;
+  height: 50px;
+  background: url("./img/css_sprites.png") -190px -119px;
+  z-index: -11;
+}
+
+.nowbuy {
+  position: relative;
+  height: 50px;
+  line-height: 45px;
+  text-decoration: none;
+}
+.nowbuy a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nowbuy a:before {
+  position: absolute;
+  content: "";
+  left: 15px;
+  width: 160px;
+  height: 50px;
+  background: url("./img/css_sprites.png") -10px -119px;
+  z-index: -11;
+}
+
+footer {
+  padding-bottom: 80px;
+}
+footer ul {
+  list-style: none;
+  position: relative;
+}
+footer ul li::before {
+  position: absolute;
+  left: -30px;
+  content: "";
+  width: 23px;
+  height: 20px;
+  background: url("img/css_sprites.png") -10px -189px;
+}

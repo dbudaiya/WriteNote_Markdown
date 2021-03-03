@@ -1,0 +1,37 @@
+json方法
+JSON.Stringify
+json()
+怎么使一个div正居中
+定位,flex,display,浮动,
+
+div嵌套两个div,都是右浮动,高度是多少
+
+sass less与普通css的区别
+预处理编译器,使用更加亲近程序的方式编码,层级嵌套
+
+常用的技术栈
+JS,Element,Vue,Vuerouter,axios,npm,ES6,webpack
+
+知道那些ES6
+块级作用域,let,const class,promise,awite,asycn,扩展方法,rest,扩展运算符,
+
+rest是干嘛的
+
+tab页面怎么点击切换
+
+用过jquery中的那些方法
+ready用于预先加载页面
+each用于遍历数组
+
+箭头函数的作用
+
+学校学过哪些语言
+
+css3属性transfrom怎么实现过渡
+
+能不能独里开发一个静态页面
+
+知道element ui框架或者微信小程序里的哪几个属性
+
+
+

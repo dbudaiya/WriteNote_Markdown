@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Float</title>
+    <style type="text/css">
+        .container{
+            height: 200px;
+            border: 1px solid #eee;
+        }
+        .container div{
+            color: #fff;
+            height: 100%;
+        }
+        .container > .left{
+            float: left;
+            width: 200px;
+            margin-left: -100%;
+            background-color: #246846;
+        }
+        .container > .main-container{
+            float: left;
+            width: 100%;
+        }
+        .container > .main-container > .main{
+            margin-left: 200px;
+            margin-right: 200px;
+            background-color: #2979ff;
+        }
+        .container > .right{
+            float: right;
+            width: 200px;
+            margin-left: -200px;
+            background-color: #fa3534;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="main">main</div>
+        </div>
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+</body>
+</html>
